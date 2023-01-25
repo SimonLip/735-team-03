@@ -108,3 +108,12 @@ function firstNonConsecutive(arr) {
   }
   return null;
 }
+
+//https://www.codewars.com/kata/a-wolf-in-sheeps-clothing/train/javascript
+function warnTheSheep(q) {
+  return q[q.length-1] === 'wolf' ? "Pls go away and stop eating my sheep" : 
+  Oi! Sheep number ${q.length - (q.indexOf('wolf')+1)}! You are about to be eaten by a wolf!
+}
+
+//https://www.codewars.com/kata/53ee5429ba190077850011d4/train/javascript
+const doubleInteger = i => 2 * i;
