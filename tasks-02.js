@@ -19,6 +19,13 @@ var max = function(list){
     return list[0];
 }
 
+//https://www.codewars.com/kata/544a54fd18b8e06d240005c0/train/javascript
+
+function min(arr, toReturn)
+  let val = Math.min.apply(null, arr);
+  return toReturn == 'value' ? val : arr.indexOf(val); 
+}
+
 //https://www.codewars.com/kata/53ee5429ba190077850011d4/train/javascript
 
 function doubleInteger(i) {
