@@ -9,14 +9,12 @@ function DNAtoRNA(dna) {
 }
 
 https://www.codewars.com/kata/577a98a6ae28071780000989/train/javascript
-var min = function(list){
-    list.sort((a, b) => (a - b));
-    return list[0];
+let min = function(list){
+    return Math.min(...list);
 }
 
-var max = function(list){
-    list.sort((a, b) => (b - a));
-    return list[0];
+let max = function(list){
+    return Math.max(...list);
 }
 
 //https://www.codewars.com/kata/544a54fd18b8e06d240005c0/train/javascript
@@ -99,3 +97,14 @@ function past(h, m, s) {
 function isDivisible(n, x, y) {
   return (n % x) + (n % y) === 0;
 }
+
+https://www.codewars.com/kata/find-the-first-non-consecutive-number/train/javascript
+function firstNonConsecutive(arr) {
+    for (let i = 0; i < arr.length - 1; i++) {
+        if (arr[i + 1] - arr[i] !== 1) {
+            return arr[i + 1];
+        }
+    }
+    return null;
+}
+
