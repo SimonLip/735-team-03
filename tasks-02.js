@@ -115,5 +115,5 @@ function warnTheSheep(q) {
   Oi! Sheep number ${q.length - (q.indexOf('wolf')+1)}! You are about to be eaten by a wolf!
 }
 
-//https://www.codewars.com/kata/53ee5429ba190077850011d4/train/javascript
-const doubleInteger = i => 2 * i;
+//https://www.codewars.com/kata/57f781872e3d8ca2a000007e/train/javascript
+const maps = (arr) => arr.map(a => a * 2)
