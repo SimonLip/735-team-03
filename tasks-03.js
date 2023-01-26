@@ -1,9 +1,9 @@
-//https://discord.com/channels/1055031157995077692/1058356316097224734/1067871524234727455
+//https://www.codewars.com/kata/find-the-smallest-integer-in-the-array/train/javascript
 class SmallestIntegerFinder {
   findSmallestInt = args => Math.min(...args);
 }
 
-//https://discord.com/channels/1055031157995077692/1058356316097224734/1067871524234727455
+//https://www.codewars.com/kata/geometry-basics-circle-circumference-in-2d/train/javascript
 const circleCircumference = circle => 2 * Math.PI * circle.radius;
 
 //https://www.codewars.com/kata/training-js-number-12-loop-statement-for-dot-in-and-for-dot-of/train/javascript
