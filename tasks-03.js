@@ -8,12 +8,12 @@ const circleCircumference = (circle) => 2 * Math.PI * circle.radius;
 
 //https://www.codewars.com/kata/training-js-number-12-loop-statement-for-dot-in-and-for-dot-of/train/javascript
 function giveMeFive(obj) {
-  let arr = [];
+  let five = [];
   for (let i in obj) {
-    if (i.length === 5) arr.push(i);
-    if (obj[i].length === 5) arr.push(obj[i]);
+    if (i.length === 5) five.push(i);
+    if (obj[i].length === 5) five.push(obj[i]);
   }
-  return arr;
+  return five;
 }
 
 //https://www.codewars.com/kata/understanding-closures-the-basics/train/javascript
